@@ -4,9 +4,9 @@ Name:		fastjar
 Version:	0.93
 Release:	1
 License:	GPL
-Group:		Development/Languages
-Group(de):	Entwicklung/Sprachen
-Group(pl):	Programowanie/Jêzyki
+Group:		Development/Languages/Java
+Group(de):	Entwicklung/Sprachen/Java
+Group(pl):	Programowanie/Jêzyki/Java
 Source0:	ftp://download.sourceforge.net/pub/sourceforge/fastjar/%{name}-%{version}.tgz
 URL:		http://fastjar.sourceforge.net
 BuildRequires:	autoconf
