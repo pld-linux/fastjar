@@ -38,7 +38,7 @@ robi to w nieco ponad sekundê.
 rm -f missing
 aclocal
 autoconf
-automake -a -c
+automake -a -c -f
 %configure
 %{__make}
 
