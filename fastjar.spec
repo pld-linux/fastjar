@@ -2,7 +2,7 @@ Summary:	Jar file creation utility
 Summary(pl):	Narzêdzie do tworzenia plików jar
 Name:		fastjar
 Version:	0.93
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Java
 Source0:	ftp://download.sourceforge.net/pub/sourceforge/fastjar/%{name}-%{version}.tgz
@@ -36,7 +36,7 @@ robi to w nieco ponad sekundê.
 
 %build
 rm -f missing
-aclocal
+%{__aclocal}
 %{__autoconf}
 %{__automake}
 %configure
@@ -49,12 +49,10 @@ rm -rf $RPM_BUILD_ROOT
 
 ln -sf fastjar $RPM_BUILD_ROOT%{_bindir}/jar
 
-gzip -9nf README CHANGES
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README CHANGES
 %attr(755,root,root) %{_bindir}/*
