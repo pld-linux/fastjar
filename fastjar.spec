@@ -9,6 +9,8 @@ Group(de):	Entwicklung/Sprachen
 Group(pl):	Programowanie/Jêzyki
 Source0:	ftp://download.sourceforge.net/pub/sourceforge/fastjar/%{name}-%{version}.tgz
 URL:		http://fastjar.sourceforge.net
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,6 +27,9 @@ second.
 %setup -q
 
 %build
+aclocal
+autoconf
+automake -a -c
 %configure
 %{__make}
 
