@@ -6,6 +6,7 @@ Release:	3
 License:	GPL
 Group:		Development/Languages/Java
 Source0:	http://dl.sourceforge.net/fastjar/%{name}-%{version}.tgz
+# Source0-md5:	a8159d2042bce9998020f197fee39ef1
 URL:		http://fastjar.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
