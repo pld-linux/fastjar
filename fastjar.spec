@@ -8,7 +8,6 @@ Group:		Development/Languages
 Group(de):	Entwicklung/Sprachen
 Group(pl):	Programowanie/Jêzyki
 Source0:	ftp://download.sourceforge.net/pub/sourceforge/fastjar/%{name}-%{version}.tgz
-Patch0:		%{name}-DESTDIR_and_install.patch
 URL:		http://fastjar.sourceforge.net
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -24,7 +23,6 @@ second.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %configure
