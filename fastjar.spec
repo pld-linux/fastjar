@@ -7,8 +7,8 @@ Release:	1
 License:	GPL
 Group:		Development/Languages
 Group(pl):	Programowanie/Jêzyki
-Source0:	%{name}-%{version}.tgz
-Patch0:	fastjar-DESTDIR_and_install.patch
+Source0:	ftp://download.sourceforge.net/pub/sourceforge/fastjar/%{name}-%{version}.tgz
+Patch0:		fastjar-DESTDIR_and_install.patch
 URL:		http://fastjar.sourceforge.net
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
