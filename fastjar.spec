@@ -8,7 +8,7 @@ Group:		Development/Languages/Java
 Group(de):	Entwicklung/Sprachen/Java
 Group(pl):	Programowanie/Jêzyki/Java
 Source0:	ftp://download.sourceforge.net/pub/sourceforge/fastjar/%{name}-%{version}.tgz
-URL:		http://fastjar.sourceforge.net
+URL:		http://fastjar.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	zlib-devel
@@ -23,6 +23,15 @@ written in C, it can create the same .jar file as Sun's tool in a
 fraction of the time. On my system, Sun's jar takes 50 seconds to
 create a 10MB jar file, while FastJar only takes a little over a
 second.
+
+%description -l pl
+FastJar to próba stworzenia dok³adnej pod wzglêdem mo¿liwo¶ci kopii
+polecenia jar z Sun JDK. jar Suna (lub Blackdowna) jest napisany
+ca³kowicie w Javie, co powoduje, ¿e jest bardzo wolny. Poniewa¿
+FastJar jest napisany w C, mo¿e tworzyæ te same pliki .jar co
+narzêdzie Suna kilka razy szybciej. Na systemie autora jar Suna
+potrzebuje 50 sekund na stworzenie 10MB pliku jar, natomiast fastjar
+robi to w nieco ponad sekundê.
 
 %prep
 %setup -q
