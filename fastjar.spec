@@ -12,6 +12,7 @@ URL:		http://fastjar.sourceforge.net
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	zlib-devel
+Provides:	jar
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
