@@ -2,11 +2,12 @@ Summary:	Jar file creation utility
 Summary(pl):	Narzêdzie do tworzenia plików jar
 Name:		fastjar
 Version:	0.93
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Java
 Source0:	http://dl.sourceforge.net/fastjar/%{name}-%{version}.tgz
 # Source0-md5:	a8159d2042bce9998020f197fee39ef1
+Patch0:		%{name}-gcc.patch
 URL:		http://fastjar.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -36,6 +37,7 @@ robi to w nieco ponad sekundê.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 rm -f missing
