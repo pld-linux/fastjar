@@ -1,5 +1,5 @@
 Summary:	Jar file creation utility
-Summary(pl.UTF-8):   Narzędzie do tworzenia plików jar
+Summary(pl.UTF-8):	Narzędzie do tworzenia plików jar
 Name:		fastjar
 Version:	0.93
 Release:	6
