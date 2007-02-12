@@ -1,5 +1,5 @@
 Summary:	Jar file creation utility
-Summary(pl):	Narzêdzie do tworzenia plików jar
+Summary(pl.UTF-8):   NarzÄ™dzie do tworzenia plikÃ³w jar
 Name:		fastjar
 Version:	0.93
 Release:	6
@@ -26,14 +26,14 @@ fraction of the time. On my system, Sun's jar takes 50 seconds to
 create a 10MB jar file, while FastJar only takes a little over a
 second.
 
-%description -l pl
-FastJar to próba stworzenia dok³adnej pod wzglêdem mo¿liwo¶ci kopii
+%description -l pl.UTF-8
+FastJar to prÃ³ba stworzenia dokÅ‚adnej pod wzglÄ™dem moÅ¼liwoÅ›ci kopii
 polecenia jar z Sun JDK. jar Suna (lub Blackdowna) jest napisany
-ca³kowicie w Javie, co powoduje, ¿e jest bardzo wolny. Poniewa¿
-FastJar jest napisany w C, mo¿e tworzyæ te same pliki .jar co
-narzêdzie Suna kilka razy szybciej. Na systemie autora jar Suna
+caÅ‚kowicie w Javie, co powoduje, Å¼e jest bardzo wolny. PoniewaÅ¼
+FastJar jest napisany w C, moÅ¼e tworzyÄ‡ te same pliki .jar co
+narzÄ™dzie Suna kilka razy szybciej. Na systemie autora jar Suna
 potrzebuje 50 sekund na stworzenie 10MB pliku jar, natomiast fastjar
-robi to w nieco ponad sekundê.
+robi to w nieco ponad sekundÄ™.
 
 %prep
 %setup -q
