@@ -2,7 +2,7 @@ Summary:	Jar file creation utility
 Summary(pl.UTF-8):	Narzędzie do tworzenia plików jar
 Name:		fastjar
 Version:	0.93
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Java
 Source0:	http://dl.sourceforge.net/fastjar/%{name}-%{version}.tgz
