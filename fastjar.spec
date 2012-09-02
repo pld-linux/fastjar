@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Narzędzie do tworzenia plików jar
 Name:		fastjar
 Version:	0.94
 Release:	1
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Java
 Source0:	http://downloads.sourceforge.net/fastjar/%{name}-%{version}.tar.gz
 # Source0-md5:	14d4bdfac236e347d806c6743dba48c6
@@ -38,9 +38,9 @@ robi to w nieco ponad sekundę.
 %setup -q
 
 %build
-rm -f missing
 %{__aclocal}
 %{__autoconf}
+%{__autoheader}
 %{__automake}
 %configure
 %{__make}
@@ -58,5 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README CHANGES
-%attr(755,root,root) %{_bindir}/*
+%doc AUTHORS CHANGES ChangeLog NEWS README CHANGES
+%attr(755,root,root) %{_bindir}/fastjar
+%attr(755,root,root) %{_bindir}/grepjar
+%attr(755,root,root) %{_bindir}/jar
