@@ -1,3 +1,6 @@
+# TODO:
+# - upgrade to 0.99 https://github.com/FauxFaux/fastjar
+# - Obsoletes: icedtea[67]-jar?
 Summary:	Jar file creation utility
 Summary(pl.UTF-8):	Narzędzie do tworzenia plików jar
 Name:		fastjar
